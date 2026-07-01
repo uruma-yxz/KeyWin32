@@ -16,11 +16,11 @@ O objetivo é capturar eventos de teclado e disparar os logs diretamente para um
 # 🛠️ Tecnologias e Dependências
 
 ```
-  Linguagem: C++
+    Linguagem: C++
   
-  API Principal: Win32 API (Nativa do Windows)
+    API Principal: Win32 API (Nativa do Windows)
   
-  Envio de Dados: Discord Webhook API
+    Envio de Dados: Discord Webhook API
 ```
 
 # ⚙️ Configuração Inicial
